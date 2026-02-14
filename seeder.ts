@@ -1,4 +1,4 @@
-import pool from './db';
+import pool from './db.js';
 
 const initializeSchema = async (): Promise<void> => {
   const client = await pool.connect();
